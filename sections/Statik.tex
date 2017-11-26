@@ -1,0 +1,113 @@
+\section{Statik}
+
+Generelles Vorgehen
+\begin{enumerate}
+	\item  Skizze mit allen Kräften aufzeichnen
+	\item Koordinatensystem einführen
+	\item Falls notwendig, einen Drehpunkt von einem Drehmoment einführen 
+	\item Gleichgewichtsbedingungs- bzw. Gleichungssystem aufstellen
+	\item Gleichungssystem auflösen
+\end{enumerate}
+
+\subsection{Starrer Körper - Statik des Massenpunktes}
+Ein Massenpunkt ist ein Körper, dessen ganze Masse in 
+einem Punkt konzentriert ist. \\
+Ein starrer Körper wird durch die an ihm angreifenden 
+Kräfte nicht deformiert. Die Gerade, die durch den Angriffspunkt einer Kraft F geht und 
+deren Richtung durch die Richtung von F bestimmt ist, wird 
+Wirkungslinie von  F genannt. Für starre Körper gilt nun 
+folgender Satz:
+\textit{In einem starren Körper kann eine Kraft entlang ihrer 
+Wirkungslinie beliebig verschoben werden, ohne dass sich 
+an ihrer Wirkung etwas ändert.} 
+
+\subsubsection{Gleichgewichtsbedingung starrer Körper}
+Ein Körper ist dann im Gleichgewicht, wenn keine resultierende Kraft auf ihn wirkt, d.h. die Summe der ihn angreifenden Kräfte ist null. \\
+
+\adjustbox{width=5cm}{\includegraphics{bilder/krfte}}
+
+\subsubsection{Reaktionskraft}
+Das Reaktionsprinzip gilt, wenn zwei Körper Kräfte auf einander ausüben.
+
+\subsubsection{Kontaktkraft}
+Bezeichnet die Kraft eines auf einer Oberfläche liegenden Körpers, die der Schwerkraft entgegenwirkt.\\
+
+
+\subsubsection{Reibung \& Gleitreibung}
+\begin{minipage}{15.5cm}
+Reibungskraft $F_{R} = \mu_{H} \cdot F_{N}$ (Der Körper haftet noch immer am Untergrund)\\
+Gleitreibungskraft $F_G =  \mu_{G} \cdot F_{N}$ (Der Körper bewegt sich) \\
+Achtung: Bei Schiefen Ebenen entspricht $F_{N}$ nicht $F_{G}$ \\
+Die Reibungskraft ist nicht von der Grösse der Kontaktfläche abhängig, sondern nur vom Gewicht. \\
+Die Reibungskraft geht immer in die Gegenrichtung der Zugkraft und ist im rechten Winkel zu $F_{N}$.
+\end{minipage}
+\begin{minipage}{4cm}
+	\adjustbox{width=3cm}{\includegraphics{bilder/reibungs}}
+\end{minipage}
+
+
+\subsubsection{Drehmoment}
+\begin{minipage}{15cm}
+Zwei entgegengesetzt gerichtete gleich grosse Kräfte mit 
+parallelen, aber verschiedenen Wirkungslinien bilden ein 
+Kräftepaar. Dies ergibt eine DREHWIRKUNG.
+Eine drehende Wirkung lässt sich mit einem Kräftepaar oder, 
+bezüglich eines Bezugspunktes, mit einer Einzelkraft erzielen.
+Das Drehmoment eines Kräftepaars ist das Produkt des Betrags der Kraft und des Abstands der Wirkungslinien. \\
+$M = a \cdot F$ , a ist der Abstand zum Drehpunkt \\
+Drehmoment als Vektor im Raum: $\overrightarrow{M} = \overrightarrow{r} \times \overrightarrow{F} = F \cdot r \cdot \sin(\alpha)$ \\
+ $\overrightarrow{M}$ steht im rechten Winkel auf der Ebene $\overrightarrow{r},  \overrightarrow{F}$ \\
+Der Drehsinn ist in Gegenuhrzeigersinn. \\
+\textbf{Tipp:} Der Bezugspunkt zu einem Drehmoment kann beliebig gewählt werden. Besonders geeignet sind Bezugspunkte, wo andere Kräfte Null ergeben!.  
+\end{minipage}
+\begin{minipage}{4cm}
+\adjustbox{width=3cm}{\includegraphics{bilder/drehmoment_2}}
+\end{minipage}
+
+\subsubsection{Schwerpunkt}
+Der Schwerpunkt S eines Körpers ist der Punkt, in dem der unter der Wirkung der Schwerkraft stehende Körper unterstützt oder aufgehängt werden muss, damit er im Gleichgewicht ist. Der ausgedehnte Körper kann im Bezug auf die Schwerkraft durch einen Massenpunkt ersetzt werden. Eine Kraft auf den Schwerpunkt eines Körpers erzeugt kein Drehmoment (Abstand zum Drehpunkt ist Null)! \\
+$ x_s = \frac{\Sigma_{i} x_{i} \cdot m_{i}}{\Sigma_{i} m_{i}}$
+$ y_s = \frac{\Sigma_{i} y_{i} \cdot m_{i}}{\Sigma_{i} m_{i}}$
+$ z_s = \frac{\Sigma_{i} z_{i} \cdot m_{i}}{\Sigma_{i} m_{i}}$ \\
+Schwerpunkt eines Halbkreises: $x = 0,s \; y = \frac{4r}{3\pi}$ \\
+
+
+\subsection{Deformierbare Körper}
+
+\begin{itemize}
+	\item Elastisches Verhalten: Metalle, Keramik 
+	\item Plastisches  Verhalten: Plastilin, Knetmasse, Kunststoffe $\overrightarrow{}$ Mikroskopisches Modell mit Versetzung
+	\item Moderne Materialien
+\end{itemize}
+
+
+\subsubsection{Spannung}
+$\omega = \frac{F_{\perp}}{A} \; \; \tau = \frac{F_{||}}{A}$ \\
+
+\subsubsection{Dehnung}
+$ \Delta l \sim F / l / \frac{1}{A}$
+
+\subsubsection{Querkontraktion / Querdehnung}
+Bei einer Längsdehnung eines Stabes tritt auch eine Querkontraktion auf, d.h. der Stab wird dünner. \\
+$ \epsilon_{q} = \frac{\Delta d}{d}$ d ist die Dicke, $\Delta d$ die Änderung der Dicke des Stabes \\
+$\epsilon_{q} = -\mu \epsilon $
+
+
+\subsubsection{Kompression}
+
+$\frac{\Delta V}{V} = - \kappa \Delta p $
+
+\subsubsection{Schubbeanspruchung}
+
+\adjustbox{width=4.5cm}{\includegraphics{bilder/schubbeanspruchung}}
+
+
+\subsubsection{Schraubenfeder}
+
+
+\subsubsection{Biegung}
+
+\subsubsection{Skalierungsgesetz}
+
+
+
