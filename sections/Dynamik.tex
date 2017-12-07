@@ -38,6 +38,7 @@ $\rho = \frac{m}{V}$ \\
 $\mu = - \frac{a}{g}$ \\
 $\mu_{H} = \tan{}$ \\
 $F_{H_{max}} = \mu_{H}F_{H}$ \\ 
+\adjustbox{width=2.5cm}{\includegraphics{bilder/spezK}}
 
 \subsubsection{Arbeit und Energie, Energieerhaltung}
 Energie ist die Fähigkeit Arbeit zu leisten. Arbeit = überwinden eines Widerstandes \\
@@ -67,7 +68,8 @@ Hubarbeit: $W_{H} = E_{pot}$
 
 \subsubsection{Spannarbeit, Spannenergie}
 Spannenergie: $E_{s} = \frac{c \cdot x^2}{2}$  entspricht Spannarbeit: $W_{s} = \overrightarrow{F_{s}} \cdot \overrightarrow{x}$ \\
-x: = Spannweg [m], $F_{s}$ = Spannkraft
+$F_{F}$ = Spannkraft = $c \cdot \Delta s$ \\
+x: = Spannweg [m], c: = Federkonstante
 
 
 \subsubsection{Beschleunigungsarbeit, Kinetische Energie}
@@ -83,7 +85,7 @@ $W_{R} = F_{RS}$
 \subsubsection{Verformungsarbeit}
 $Inelatisch: W_{D} = \frac{m_{1}m_{2}(v_{1} + v_{2})^2}{2(m_{1} + m_{2})} $ \\
 $Elatisch:  W_{D} = \frac{F_{1} + F_{2}}{2}\Delta s$
-
+\adjustbox{width=2.5cm}{\includegraphics{bilder/verformung}}
 \subsubsection{Kernbindungenergie (Einstein)}
 $E = m \cdot c^2$
 
@@ -96,6 +98,8 @@ Wirkungsgrad: $\eta = \frac{P_{ab}}{P_{zu}} = \frac{W_{ab}}{W_{zu}}$ \\
 $\eta_{tot} = \eta_{1} \cdot \eta_{2}  \cdot ...$
 
 \subsubsection{Impuls, Impulserhaltung}
+In einem abgeschlossenen System bleibt der Gesamtimpuls konstant. 
+
 Impuls $ \overrightarrow{p} = m \cdot \overrightarrow{v} = \overrightarrow{F}$  \\
 Gesamtimpuls: $ p_{ges} = \Sigma_{i = 1} m_{i}v_{s} $\\
 Kraftstoss: $\overrightarrow{F} = \frac{\Delta \overrightarrow{p}}{ \Delta t}$
@@ -107,9 +111,72 @@ Drehmoment: $ \overrightarrow{M} = \frac{d \overrightarrow{p}}{dt}
 $
 
 \subsubsection{Raketenantrieb}
+$v = u \cdot ln(\frac{m_0}{m} + v_0) $ \\
+Schubkraft: $F_s = \frac{dm}{dt} u$ \\
+Spezifischer Impuls: $T = \frac{u}{g}$
+u = v-Strahl relativ zur Rakete\\ 
+\adjustbox{width=2.5cm}{\includegraphics{bilder/raketenantrieb}}
+
+\subsection{Stösse}
+
+\begin{tabular}[c]{|l|l|}
+	\hline
+	Stossart & Beschreibung \\
+	\hline
+	gerade & Die Bahnen der Schwerpunkte liegen auf einer Geraden. \\
+	\hline
+	schief & Die Bahnen der Schwerpunkte schliessen einen Winkel ein. \\
+	\hline
+	zentral & Die Schwerpunkte der Stosspartner liegen auf der Strossnormalen.  \\
+	\hline
+	exzentrisch & Die Schwerpunkte der Stosspartner liegen nicht auf der Strossnormalen.  \\
+	\hline
+	elastisch & Die totalen kinetischen Energien vor und nach dem Stoss sind gleich.  \\
+		\hline
+	inelastisch & Die totalen kinetischen Energien vor und nach dem Stoss sind verschieden.  \\
+	\hline
+	total inelastisch & Die Stosspartner bewegen sich nach dem Stoss mit der gleichen Geschwindigkeit.  \\
+	\hline
+\end{tabular}
+
+%
+%	\adjustbox{width=15cm}{\includegraphics{bilder/Stossarten}}
 
 \subsubsection{Inelastischer Stoss}
+Bei einem inelatischen Stoss geht ein Teil der kinetischen Energie als Wärmeenergie "verloren". \\
+$v' = \frac{m_1v_1 + m_2v_2}{m_1 + m_2}$ \\
+$Q = \frac{u \cdot v_{R}^2}{2} = \frac{m_1 \cdot m_2}{m_1 + m_2} \cdot \frac{1}{2}(v_1 - v_2) $
 
 \subsubsection{Elastischer Stoss}
+Bei einem elastischen Stoss bleibt die kinetische Energie als auch der Impuls erhalten. \\
+Achtung: Wird etwas auf den Boden geschleudert und kommt wieder zurück: 2 x $E_kin$
 
+$v_1 - v_2 = -(v'_1 - v'_2)$ \\
+$v'_1 = \frac{(m_1 - m_2)v_1 + 2m_2v_2}{m_1 + m_2} $ \\
+$v'_2 = \frac{(m_2 - m_1)v_2 + 2m_1v_1}{m_1 + m_2}$ \\
+Impulserhaltung: $m_1v_1 + m_2v_2 = m_1v'_1 + m_2v'_2$ \\
+Energieerhaltung: $m_1v_1^2 + m_2v^2_2 = m_1v_1^{'2} + m_2v_2^{'2}$ \\
+$v'$ = Geschwindigkeit nach dem Stoss \\
 
+\section{Gravitationsgesetze}
+\begin{multicols}{3}
+\textbf{1. Kepler Gesetz} \\
+Die Planeten bewegen sich auf Elipsen, in deren einen Brennpunkt die Sonne steht. \\
+\adjustbox{width=2.5cm}{\includegraphics{bilder/kepler1}}
+\columnbreak
+
+\textbf{2. Kepler Gesetz} \\
+Der Fahrstrahl des Planeten überstreicht in gleichen Zeiten gleiche Flächen. \\
+\\
+\adjustbox{width=3.5cm}{\includegraphics{bilder/kepler2}}
+\columnbreak
+
+\textbf{3. Kepler Gesetz} \\
+Die Quadrate der Umlaufzeiten zweier Planeten verhalten sich wie Kuben der Halbachsen ihrer Bahnen. \\
+\\
+$$a_2 = (\frac{T_1}{T_2})^\frac{2}{3} \cdot a_1 $$ \\
+\end{multicols}
+
+\textbf{Newtonsche Gravitationsgesetze:} \\
+$ F_G = G\frac{m_1 \cdot m_2}{r^2} $ \\
+Gravitationskonstante G: $6.673 \cdot 10^{-11} m^3 / kg s^2$
