@@ -1,13 +1,18 @@
 \section{Statik}
 
-Generelles Vorgehen
-\begin{enumerate}
-	\item  Skizze mit allen Kräften aufzeichnen
-	\item Koordinatensystem einführen
-	\item Falls notwendig, einen Drehpunkt von einem Drehmoment einführen 
-	\item Gleichgewichtsbedingungs- bzw. Gleichungssystem aufstellen
-	\item Gleichungssystem auflösen
-\end{enumerate}
+\begin{multicols}{2}
+\textbf{Generelles Vorgehen} \\
+1. Skizze mit allen Kräften aufzeichnen \\
+2. Koordinatensystem einführen \\
+3. Falls nötig, Drehpunkt von Drehmoment einführen \\
+4. Gleichgewichtsbedingungs-/ Gleichungssystem aufstellen \\
+5. Gleichungssystem auflösen \\
+\columnbreak
+\\
+\textbf{Gleichgewichtsbedingung starrer Körper} \\
+Ein Körper ist dann im Gleichgewicht, wenn keine resultierende Kraft auf ihn wirkt, d.h. die Summe der ihn angreifenden Kräfte ist null. \\
+$\sum\limits_{i=0}^{n} F_{ix} = 0,  \; \sum\limits_{i=0}^{n} F_{iy} = 0, \; \sum\limits_{i=0}^{n} F_{iz} = 0 $
+\end{multicols}
 
 \subsection{Starrer Körper - Statik des Massenpunktes}
 Ein Massenpunkt ist ein Körper, dessen ganze Masse in 
@@ -21,16 +26,10 @@ folgender Satz:
 Wirkungslinie beliebig verschoben werden, ohne dass sich 
 an ihrer Wirkung etwas ändert.} 
 
-\subsubsection{Gleichgewichtsbedingung starrer Körper}
-Ein Körper ist dann im Gleichgewicht, wenn keine resultierende Kraft auf ihn wirkt, d.h. die Summe der ihn angreifenden Kräfte ist null. \\
 
-\adjustbox{width=5cm}{\includegraphics{bilder/krfte}}
-
-\subsubsection{Reaktionskraft}
-Das Reaktionsprinzip gilt, wenn zwei Körper Kräfte auf einander ausüben.
 
 \subsubsection{Kontaktkraft}
-Bezeichnet die Kraft eines auf einer Oberfläche liegenden Körpers, die der Schwerkraft entgegenwirkt.\\
+Bezeichnet die Kraft eines auf einer Oberfläche liegenden Körpers, die der Schwerkraft entgegenwirkt. Sie steht immer im rechten Winkel zur Ebene und zur Reibungskraft $F_R$. \\
 
 
 \subsubsection{Reibung \& Gleitreibung}
@@ -73,41 +72,59 @@ Schwerpunkt eines Halbkreises: $x = 0,s \; y = \frac{4r}{3\pi}$ \\
 
 
 \subsection{Deformierbare Körper}
+- Elastisches Verhalten: Metalle, Keramik \\
+- Plastisches  Verhalten: Plastilin, Knetmasse, Kunststoffe $\overrightarrow{}$ Mikroskopisches Modell mit Versetzung \\
+- Moderne Materialien
 
-\begin{itemize}
-	\item Elastisches Verhalten: Metalle, Keramik 
-	\item Plastisches  Verhalten: Plastilin, Knetmasse, Kunststoffe $\overrightarrow{}$ Mikroskopisches Modell mit Versetzung
-	\item Moderne Materialien
-\end{itemize}
-
-
+\begin{multicols}{2}
 \subsubsection{Spannung}
-$\omega = \frac{F_{\perp}}{A} \; \; \tau = \frac{F_{||}}{A}$ \\
+Die Kraft F kann in eine zur Fläche A senkrechte Konstante $F_{\perp}$ und eine zur Fläche parallele Konstante $F_{||}$ zerlegt werden.  \\
+$\omega = \frac{F_{\perp}}{A} \; \; \tau = \frac{F_{||}}{A}$
 
-\subsubsection{Dehnung}
-$ \Delta l \sim F / l / \frac{1}{A}$
-
-\subsubsection{Querkontraktion / Querdehnung}
-Bei einer Längsdehnung eines Stabes tritt auch eine Querkontraktion auf, d.h. der Stab wird dünner. \\
-$ \epsilon_{q} = \frac{\Delta d}{d}$ d ist die Dicke, $\Delta d$ die Änderung der Dicke des Stabes \\
-$\epsilon_{q} = -\mu \epsilon $
-
+\subsubsection{Dehnung / Längenkontraktion}
+ Längenänderung $\Delta l:  \sim F / l / \frac{1}{A}$ \\
+ Relative Verlängerung: $\frac{\Delta l}{l} = \varepsilon$ \\
+Hookesche Gesetz: $ \varepsilon = \frac{1}{E} \cdot \sigma $ \\
+Elastizitätsmodul E: \lbrack$ \frac{N}{m^2}$ \rbrack
 
 \subsubsection{Kompression}
 
-$\frac{\Delta V}{V} = - \kappa \Delta p $
+Volumenreduktion / Volumen: $\frac{\Delta V}{V} = - \kappa \Delta p$\\
+Druckänderung: $\Delta$ p, \\
+Kompressibilität $\kappa = \frac{3(1-2\mu)}{E}$
 
-\subsubsection{Schubbeanspruchung}
 
-\adjustbox{width=4.5cm}{\includegraphics{bilder/schubbeanspruchung}}
-
+\subsubsection{Querkontraktion / Querdehnung}
+Bei einer Längsdehnung eines Stabes tritt auch eine Querkontraktion auf, d.h. der Stab wird dünner. \\
+$ \varepsilon_{q} = \frac{\Delta d}{d}$ d ist die Dicke, $\Delta d$ die Änderung der Dicke des Stabes \\
+$\varepsilon_{q} = -\mu \varepsilon $ \\
+Possionzahl $\mu$ ist zw. 0.15 und 0.5. 
 
 \subsubsection{Schraubenfeder}
+$F = c \Delta l, \;$ \\
+Federkonstante $c = \frac{Gr^4}{4nR^3}$ \\
+r = Drahtradius, n = Anz. Windungen, R = Windungsradius
 
+\subsubsection{Schubbeanspruchung}
+%\adjustbox{width=4.5cm}{\includegraphics{bilder/schubbeanspruchung}}
+$\gamma = \frac{1}{G}\tau$ \\
+Schub-/Gleit-/Torsionsmodul G: $\frac{E}{2(1+\mu)} \lbrack \frac{N}{m^2} \rbrack$
+\end{multicols}
 
-\subsubsection{Biegung}
-
-\subsubsection{Skalierungsgesetz}
-
+\begin{multicols}{3}
+\textbf{Torsionsfeder} \\
+$M = c* \cdot \varphi$ \\
+$c = \frac{\varphi G r^4}{2l} $
+\columnbreak
+\\
+\textbf{Balken-Biegung} \\
+$z = \frac{4l^3}{Ebh^3}F$ \\
+b = Balkenbreite \\
+\columnbreak
+\\
+\textbf{Skalierungsgesetz} \\
+$z = \frac{5 \rho g l^4}{32Eh^2}$ \\
+h = Höhe des Querschnitts
+\end{multicols}
 
 
